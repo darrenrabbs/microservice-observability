@@ -1,0 +1,6 @@
+
+# Tilt configuration file
+apiVersion: tilt.dev/v1alpha1
+kind: Tiltfile
+metadata:
+  name: microservice-observability
