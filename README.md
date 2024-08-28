@@ -20,6 +20,8 @@ This repository demonstrates how to set up observability for a microservice usin
 In modern cloud-native applications, observability is crucial for understanding the health and performance of your services. This demo project shows how to implement observability in a Kubernetes environment using Prometheus to scrape metrics from a microservice and VictoriaMetrics to store and query these metrics. Tilt is used to streamline local development by managing the Kubernetes resources and Docker images.
 
 ## Project Structure
+
+```
 microservice-observability/
 ├── charts/
 │   ├── microservice/
@@ -41,6 +43,7 @@ microservice-observability/
 │   └── entrypoint.sh
 ├── Tiltfile
 └── README.md
+```
 
 ### Explanation of Key Components
 
